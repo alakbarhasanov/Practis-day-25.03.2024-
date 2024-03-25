@@ -1,0 +1,177 @@
+*{
+    box-sizing: border-box;
+}
+
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Ubuntu, sans-serif !important;
+}
+
+
+main{
+    background-color: #1A1A1A;
+    height: 3000px;
+}
+
+
+.container {
+    padding: 0 120px;
+}
+
+.linda{
+    display: flex;
+    justify-content: center;
+    margin-left: 80px;
+}
+
+
+#slider{
+    padding-top: 100px;
+}
+
+
+.slider-description{
+
+}
+
+
+.slider-description h1{
+    color: white;
+    font-size: 45px;
+    width: 441px;
+}
+
+
+.slider-description h3{
+    color: white;
+    width: 419px;
+}
+
+
+.slider-description p{
+    color: white;
+}
+
+
+.slider-description p a{
+    color: #1251E8;
+    text-decoration: none;
+    margin-left: 5px;
+}
+
+
+.slider-description button{
+    background-color: #1251E8;
+    color: white;
+    border: none;
+    padding: 20px 50px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-family: Ubuntu, sans-serif !important;
+    cursor: pointer;
+}
+
+
+
+.slider-image{
+    margin-left: 50px;
+}
+
+
+.slider-image img{
+    width: 85%;
+    height: 512px;
+}
+
+
+#experience{
+    padding-top: 100px;
+}
+
+
+.experiences{
+    display: flex;
+    gap: 104px;
+}
+
+
+.experience-title{
+
+}
+
+
+.experience-title h1{
+    color: white;
+}
+
+
+.experience-year{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.experience-year .year{
+    width: 300px;
+    height: 180px;
+    background-color: #333333;
+    padding-left: 40px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+
+.experience-year .year:nth-child(6){
+    background-color: #F41A83;
+}
+
+
+.experience-year .year h1{
+    color: white;
+    font-size: 50px;
+    padding-left: 52px;
+}
+
+
+.experience-year .year p{
+    color: white;
+    width: 219px;
+    text-align: center;
+    margin-top: -15px;
+}
+
+
+
+#my-projects{
+    padding-top: 100px;
+}
+
+
+.my-project{
+    display: flex;
+}
+
+
+.my-project .project h3{
+    color: white;
+}
+
+
+.my-project .project p{
+    color: white;
+}
+
+
+
+.my-project .project p a{
+    color: #F41A83;
+}
+
+
+.my-project .description h1{
+    color: white;
+}
+
+
